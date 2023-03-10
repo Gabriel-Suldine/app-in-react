@@ -1,0 +1,39 @@
+button {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.details {
+
+}
+
+.details p {
+    color: white;
+    padding: 10px 0 10px 0 ;
+
+
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 35% ;
+
+}
