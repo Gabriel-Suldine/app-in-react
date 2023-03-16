@@ -4,6 +4,7 @@ import { Menu } from "../../menu";
 import { MenuItem } from "../../MenuItem";
 import { NavBarMenu } from "../../NavBarMenu";
 import { Title } from "../../Title";
+import{Link} from 'react-router-dom'
 
 export function Home() {
     return (
@@ -13,8 +14,10 @@ export function Home() {
             </header>
             <main>
                 <Menu>
-                    <MenuItem icon={<AddressBook size={24} />} text="Agenda" />
+                    <Link to='/gallery'> 
                     <MenuItem icon={<ImageSquare  size={24} />} text="Galeria" />
+                    </Link>
+                    <MenuItem icon={<AddressBook size={24} />} text="Agenda" />
                 </Menu>
             </main >
             <footer>
