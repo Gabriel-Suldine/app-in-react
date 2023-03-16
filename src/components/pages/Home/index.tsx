@@ -1,4 +1,7 @@
+import { AddressBook, ImageSquare } from "phosphor-react";
 import { Button } from "../../Button";
+import { Menu } from "../../menu";
+import { MenuItem } from "../../MenuItem";
 import { NavBarMenu } from "../../NavBarMenu";
 import { Title } from "../../Title";
 
@@ -9,14 +12,13 @@ export function Home() {
                 <Title text='Bem vindo' />
             </header>
             <main>
-                <div className="action-buttons">
-                    <Button text="Login" type='primary' />
-                    <Button text="Cadastro" type='default' />
-                </div>
+                <Menu>
+                    <MenuItem icon={<AddressBook size={24} />} text="Agenda" />
+                    <MenuItem icon={<ImageSquare  size={24} />} text="Galeria" />
+                </Menu>
             </main >
             <footer>
-            <NavBarMenu/>
-
+                <NavBarMenu />
             </footer>
         </>
     )
