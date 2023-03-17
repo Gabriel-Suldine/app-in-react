@@ -17,7 +17,9 @@ export function Home() {
                     <Link to='/gallery'> 
                     <MenuItem icon={<ImageSquare  size={24} />} text="Galeria" />
                     </Link>
+                    <Link to='/Contato'> 
                     <MenuItem icon={<AddressBook size={24} />} text="Agenda" />
+                    </Link>
                 </Menu>
             </main >
             <footer>

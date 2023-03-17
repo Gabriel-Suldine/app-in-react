@@ -1,0 +1,16 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    width: 400px;
+    height:250px ;
+    background-color: cadetblue;
+
+}
+details {
+    background-color: violet;
+    padding: 10px;
+}
+

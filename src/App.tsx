@@ -6,6 +6,8 @@ import { Register } from './components/pages/Register'
 import { NavBarMenu } from './components/NavBarMenu/index'
 import { StateExemple } from './components/pages/StateExemple'
 import { Gallery } from './components/Gallery'
+import { ListaAgenda } from './components/ListaAgenda';
+import { Contato } from './components/pages/Contato';
 
 
 
@@ -15,13 +17,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/Gallery" element={<Gallery/>}/>
-          <Route path="/Login" element={<Login/>}/>
-          <Route path="/Register" element={<Register/>}>
-
-
-
-
+          <Route path="/Gallery" element={<Gallery/>}/>       
+          <Route path="/Contato" element={<Contato/>}>
           </Route>
         </Routes>
         <NavBarMenu />
